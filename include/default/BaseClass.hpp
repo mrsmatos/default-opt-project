@@ -1,0 +1,1 @@
+class BaseClass { public: virtual void printInfo() const = 0; virtual ~BaseClass() {} };
