@@ -1,3 +1,11 @@
+#ifdef GCC_VERSION
+#undef GCC_VERSION
+#endif
+
+// Lemon
+#include <lemon/list_graph.h>
+#include <lemon/dijkstra.h>
+
 #include <iostream>
 
 // Boost
@@ -14,9 +22,7 @@ ILOSTLBEGIN
 #include <scip/scip.h>
 #include <scip/scipdefplugins.h>
 
-// Lemon
-#include <lemon/list_graph.h>
-#include <lemon/dijkstra.h>
+
 
 #define VAR 1e+75
 enum problem_type { VAL_1 = 1, VAL_2 = 2, VAL_3 = 3 };

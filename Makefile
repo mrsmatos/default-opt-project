@@ -4,7 +4,7 @@ PLATFORM   = linux64
 LIBFORMAT  = static_pic
 
 CC        = g++
-CCOPT     = -std=c++17 -O3 -ftree-vectorize -mfpmath=sse -march=native -flto -g -m64 -fPIC -fexceptions -DNDEBUG -DIL_STD
+CCOPT     = -std=c++17 -O3 -ftree-vectorize -mfpmath=sse -march=native -flto -g -m64 -fPIC -fexceptions -DNDEBUG -DIL_STD -Wno-deprecated-declarations -Wno-macro-redefined
 
 BOOST_HOME = /opt/boost_1_87_0
 GUROBI_HOME = /opt/gurobi1201/linux64

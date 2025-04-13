@@ -57,4 +57,5 @@ set_target_properties(test_program PROPERTIES
 # Suprimir avisos de uso de APIs obsoletas (como std::iterator no Lemon)
 target_compile_options(test_program PRIVATE
     -Wno-deprecated-declarations
+    -Wno-macro-redefined
 )
