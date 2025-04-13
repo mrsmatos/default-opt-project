@@ -12,7 +12,7 @@ include_directories(
     /opt/ibm/ILOG/CPLEX_Studio2211/concert/include
     /opt/scipopt/include
     /opt/boost_1_87_0
-    /opt/lemon/include
+    /opt/lemon-1.3.1/include
 )
 
 # Diretórios de bibliotecas
@@ -21,7 +21,7 @@ link_directories(
     /opt/ibm/ILOG/CPLEX_Studio2211/cplex/lib/x86-64_linux/static_pic
     /opt/ibm/ILOG/CPLEX_Studio2211/concert/lib/x86-64_linux/static_pic
     /opt/scipopt/lib
-    /opt/lemon/lib
+    /opt/lemon-1.3.1/lib
 )
 
 # Fontes
